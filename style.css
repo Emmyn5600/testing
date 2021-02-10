@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1, p{
+    text-align: center;
+    font-size: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    background-color: #45567d;
+    height: 100vh;
+  }
+
+.container {
+    background-color: #303841;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    height: 350px;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 2px 2px 5px black;
+  }
+
+img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+  }
+  
